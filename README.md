@@ -1,0 +1,2 @@
+# Kotlin removeIf Bug
+This repository demonstrates a potential issue when using the `removeIf` function on a mutable list in Kotlin.  The problem arises when the lambda expression used within `removeIf` modifies the list's size during iteration. This can lead to elements being skipped or incorrect results.  The solution showcases a safer way to achieve the desired result, avoiding potential inconsistencies.
